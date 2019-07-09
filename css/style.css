@@ -1,4 +1,83 @@
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding-bottom: .5%
+}
+
+div {
+  float: left;
+}
+
+h1 {
+  font-size:100%;
+  padding-left: 22%;
+  padding-top: 5%;
+  padding-bottom: 1%
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: serif;
+  padding-left: 12%;
+  position: relative;
+  top: 50px
+}
+
+
+/* Media Queries */
+/* If this device is greater than or equal to 575px*/
+@media only screen and (min-width: 575px) and (max-width: 990px) {
+  div {
+    width: 39%;
+    margin: 1%;
+    padding-left: 8%;
+    height: 195px
+  } /* Code added to make design two columns*/
+  /* Height and width above adjusted image positioning*/
+
+  img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 1px;
+  } /* Added to resize images similarly*/
+
+  h1 {
+    padding-left:35%;
+    padding-top: 8%
+  }
+}
+
+
+@media only screen and (min-width:991px) and (max-width: 1215px) {
+  div {
+    width: 160px;
+    margin-left: 1%;
+    margin-top: .5%;
+    position: relative;
+    left: 220px
+  }
+
+  img {
+    height: 160px;
+  }
+
+h1 {
+  padding-left: 40%
+}
+
+h2 {
+  font-size: 22px
+}
+
 }
