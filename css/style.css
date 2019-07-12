@@ -14,15 +14,15 @@ img {
   padding-bottom: .5%
 }
 
-div {
-  float: left;
-}
+
 
 h1 {
   font-size:100%;
   padding-left: 22%;
   padding-top: 5%;
-  padding-bottom: 1%
+  padding-bottom: 1%;
+  position: relative;
+  left: 15px;
 }
 
 h2 {
@@ -39,10 +39,13 @@ h2 {
 /* If this device is greater than or equal to 575px*/
 @media only screen and (min-width: 575px) and (max-width: 990px) {
   div {
-    width: 39%;
-    margin: 1%;
-    padding-left: 8%;
-    height: 195px
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  float: left;
+  position: relative;
+  left: 85px;
   } /* Code added to make design two columns*/
   /* Height and width above adjusted image positioning*/
 
@@ -59,17 +62,19 @@ h2 {
 }
 
 
-@media only screen and (min-width:991px) and (max-width: 1215px) {
+@media only screen and (min-width:991px) and (max-width: 1300px) {
   div {
-    width: 160px;
-    margin-left: 1%;
-    margin-top: .5%;
+    width: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding: 5px;
     position: relative;
-    left: 220px
+    left: 200px
   }
 
-  img {
-    height: 160px;
+img {
+    height: 180px;
   }
 
 h1 {
@@ -78,6 +83,4 @@ h1 {
 
 h2 {
   font-size: 22px
-}
-
 }
