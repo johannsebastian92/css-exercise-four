@@ -62,7 +62,9 @@ div {
 
 h1 {
   font-size:100%;
-  position: static;
+  position: absolute;
+  left: 25%;
+  top: 1%;
 }
 
 h2 {
@@ -82,12 +84,12 @@ div {
   position: relative;
   top: 75px
 }
-/*
+
 h1 {
-  position: fixed;
-  left:100px;
-  top: -10px
-}*/
+  position: absolute;
+  left: 35%;
+  top: 3%;
+}
 
   .preview-baku {
     width: 45%;
@@ -124,12 +126,12 @@ div {
   top: 110px;
   left: 100px
 }
-/*
+
 h1 {
-  position: fixed;
-  left: 210px;
-  top: 10px
-}*/
+  position: absolute;
+  left: 42%;
+  top: 5%;
+}
 
   .preview-baku {
     width: 20%;
